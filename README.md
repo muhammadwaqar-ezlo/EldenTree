@@ -15,7 +15,7 @@ The Elden Tree is an event handler system designed for high performance and modu
 
 ## Dependencies
 
-- CMake (version 3.2 or higher)
+- CMake (version 3.20 or higher)
 - Google Test (gtest) for unit testing
 - Google Benchmark for performance benchmarking
 - Clang-Format for code formating
