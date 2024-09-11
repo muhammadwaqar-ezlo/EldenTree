@@ -19,7 +19,7 @@ TEST(EventHandlerTest, handleMultipleEvents) {
   handler.addEvent("TestGod", "Event 2");
 
   // Give some time for the events to be processed
-  std::this_thread::sleep_for(std::chrono::microseconds(10));
+  std::this_thread::sleep_for(std::chrono::milliseconds(10));
 
   // Verify that all events were received
   ASSERT_EQ(receivedEvents.size(), 2);

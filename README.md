@@ -66,8 +66,14 @@ Code should be changed according current code style.
 
 ### 3. Run CMake:
 
+- Debug build:
 ```
     cmake ..
+```
+
+- Release build:
+```
+    cmake -DCMAKE_BUILD_TYPE=Release ..
 ```
 
 ### 4. Build the project:
