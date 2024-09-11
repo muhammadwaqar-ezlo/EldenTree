@@ -53,7 +53,7 @@ Code should be changed according current code style.
 ### 1. Clone the repository:
 
 ```
-    git@github.com:muhammadwaqar-ezlo/EldenTree.git
+    git clone https://github.com/muhammadwaqar-ezlo/EldenTree.git
     cd EldenTree
 ```
 
